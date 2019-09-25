@@ -114,8 +114,14 @@ nav {
 }
 
 .card {
-  padding: 12px;
+  text-align: left;
+  padding: 6px;
+  margin: 12px;
   align-items: center;
+}
+
+.Web {
+  border: 3px solid #d4e6f1;
 }
 
 .Us img {
@@ -148,7 +154,7 @@ h4 {
   color: whitesmoke;
 }
 
-.list-group-item {
+.Links .list-group-item {
   width: 800px;
 }
 
@@ -168,7 +174,12 @@ h4 {
 }
 
 .News {
-  margin: 20px;
+  margin: 30px;
+}
+
+iframe {
+  margin: 10px;
+  padding: 20px;
 }
 
 .Contact {
@@ -239,5 +250,17 @@ h3 {
   .NewsMain {
     margin-top: 10px;
     margin-left: 5px;
+  }
+
+  .Links .list-group-item {
+    align-items: center;
+    align-content: center;
+    width: 300px;
+  }
+
+  .NewsFeed iframe {
+    width: 100%;
+    height: 580px;
+    margin: 10px;
   }
 }
