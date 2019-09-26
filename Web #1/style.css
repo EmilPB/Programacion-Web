@@ -206,11 +206,29 @@ h3 {
   display: table;
 }
 
-#Footer {
+ion-icon {
+  width: 25px;  
+  height: 25px;
+  align-items: center;
+  align-content: center;
+}
+
+#FooterMain {
   position: inherit;
   bottom: 0;
   width: 100%;
   height: 40%;
+  padding-top: 10px;
+  text-align: center;
+  color: #fbfbf9;
+  background-color: #212121;
+}
+
+#Footer {
+  position: inherit;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
   padding-top: 10px;
   text-align: center;
   color: #fbfbf9;
